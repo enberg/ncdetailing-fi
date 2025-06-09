@@ -26,8 +26,8 @@ const translations: Translations = {
     fi: 'Ammattimainen auton yksityiskohtien hoito & veneenhoito'
   },
   heroSubtitle: {
-    sv: 'Vi ger din bil och båt den vård de förtjänar med högkvalitativa produkter och expertis',
-    fi: 'Annamme autollesi ja veneellesi ansaitsemansa hoidon korkealaatuisilla tuotteilla ja asiantuntemuksella'
+    sv: 'Vi ger din bil och båt den vård de förtjänar med högkvalitativa produkter och 30 års kombinerad erfarenhet',
+    fi: 'Annamme autollesi ja veneellesi ansaitsemansa hoidon korkealaatuisilla tuotteilla ja 30 vuoden yhdistetyllä asiantuntemuksella'
   },
   
   // Services

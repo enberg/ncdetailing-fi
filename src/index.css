@@ -35,7 +35,7 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 210 40% 98%;
 
-    --radius: 0.25rem;
+    --radius: 0rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -88,7 +88,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-0;
   }
 
   body {
@@ -100,13 +100,23 @@
   }
 }
 
-/* Flat design overrides */
+/* Ultra flat design overrides */
 .flat-card {
   box-shadow: none !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border: none !important;
+  border-radius: 0 !important;
 }
 
 .flat-button {
   box-shadow: none !important;
-  border-radius: 0.25rem !important;
+  border-radius: 0 !important;
+}
+
+/* Remove all transitions and hover effects for maximum flatness */
+.flat-no-effects {
+  transition: none !important;
+}
+
+.flat-no-effects:hover {
+  transform: none !important;
 }

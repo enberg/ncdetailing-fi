@@ -17,8 +17,8 @@ const Contact = () => {
         
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center bg-card flat-card rounded p-6">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent rounded flex items-center justify-center">
+            <div className="text-center bg-card flat-card p-6">
+              <div className="mx-auto mb-4 w-12 h-12 bg-accent flat-card flex items-center justify-center">
                 <MapPin className="w-6 h-6 text-accent-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-card-foreground mb-2">{t('address')}</h3>
@@ -29,27 +29,27 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="text-center bg-card flat-card rounded p-6">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent rounded flex items-center justify-center">
+            <div className="text-center bg-card flat-card p-6">
+              <div className="mx-auto mb-4 w-12 h-12 bg-accent flat-card flex items-center justify-center">
                 <Phone className="w-6 h-6 text-accent-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-card-foreground mb-2">{t('phone')}</h3>
               <a 
                 href="tel:0442359959" 
-                className="text-sm text-card-foreground/80 hover:text-card-foreground transition-colors"
+                className="text-sm text-card-foreground/80 flat-no-effects"
               >
                 044 235 9959
               </a>
             </div>
 
-            <div className="text-center bg-card flat-card rounded p-6">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent rounded flex items-center justify-center">
+            <div className="text-center bg-card flat-card p-6">
+              <div className="mx-auto mb-4 w-12 h-12 bg-accent flat-card flex items-center justify-center">
                 <Mail className="w-6 h-6 text-accent-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-card-foreground mb-2">{t('email')}</h3>
               <a 
                 href="mailto:info@ncdetailing.fi" 
-                className="text-sm text-card-foreground/80 hover:text-card-foreground transition-colors"
+                className="text-sm text-card-foreground/80 flat-no-effects"
               >
                 info@ncdetailing.fi
               </a>

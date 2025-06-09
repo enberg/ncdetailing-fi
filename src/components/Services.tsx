@@ -40,8 +40,8 @@ const Services = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {services.map((service, index) => (
-            <div key={index} className="text-center bg-card flat-card rounded p-6">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent rounded flex items-center justify-center">
+            <div key={index} className="text-center bg-card flat-card p-6">
+              <div className="mx-auto mb-4 w-12 h-12 bg-accent flat-card flex items-center justify-center">
                 <service.icon className="w-6 h-6 text-accent-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-card-foreground mb-2">{service.title}</h3>

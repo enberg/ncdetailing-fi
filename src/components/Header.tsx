@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border/20 z-50">
+    <header className="fixed top-0 w-full bg-background z-50">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <img 
@@ -25,13 +25,13 @@ const Header = () => {
         <nav className="hidden md:flex items-center space-x-6">
           <button 
             onClick={() => scrollToSection('services')}
-            className="text-foreground hover:text-muted-foreground transition-colors text-sm font-medium"
+            className="text-foreground flat-no-effects text-sm font-medium"
           >
             {t('services')}
           </button>
           <button 
             onClick={() => scrollToSection('contact')}
-            className="text-foreground hover:text-muted-foreground transition-colors text-sm font-medium"
+            className="text-foreground flat-no-effects text-sm font-medium"
           >
             {t('contact')}
           </button>

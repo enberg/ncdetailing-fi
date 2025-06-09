@@ -18,7 +18,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/97d8d295-4130-4a3b-ad91-50764924ab39.png" 
             alt="NC Detailing Logo" 
-            className="h-10 w-auto"
+            className="h-20 w-auto"
           />
         </div>
         

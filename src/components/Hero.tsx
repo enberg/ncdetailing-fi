@@ -6,20 +6,20 @@ const Hero = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted pt-20">
-      <div className="container mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto">
+    <section className="min-h-screen flex items-center justify-center bg-background pt-16">
+      <div className="container mx-auto px-6 text-center">
+        <div className="max-w-3xl mx-auto">
           <img 
             src="/lovable-uploads/97d8d295-4130-4a3b-ad91-50764924ab39.png" 
             alt="NC Detailing Logo" 
-            className="h-24 w-auto mx-auto mb-8"
+            className="h-20 w-auto mx-auto mb-6"
           />
           
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
+          <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-4 leading-tight">
             {t('heroTitle')}
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             {t('heroSubtitle')}
           </p>
         </div>

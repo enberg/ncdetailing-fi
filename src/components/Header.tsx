@@ -12,26 +12,26 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+    <header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border/20 z-50">
+      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <img 
             src="/lovable-uploads/97d8d295-4130-4a3b-ad91-50764924ab39.png" 
             alt="NC Detailing Logo" 
-            className="h-12 w-auto"
+            className="h-10 w-auto"
           />
         </div>
         
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           <button 
             onClick={() => scrollToSection('services')}
-            className="text-foreground hover:text-primary transition-colors"
+            className="text-foreground hover:text-muted-foreground transition-colors text-sm font-medium"
           >
             {t('services')}
           </button>
           <button 
             onClick={() => scrollToSection('contact')}
-            className="text-foreground hover:text-primary transition-colors"
+            className="text-foreground hover:text-muted-foreground transition-colors text-sm font-medium"
           >
             {t('contact')}
           </button>

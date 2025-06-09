@@ -22,12 +22,12 @@ const translations: Translations = {
   
   // Hero section
   heroTitle: {
-    sv: 'Professionell bildetaljering & båtvård',
-    fi: 'Ammattimainen auton yksityiskohtien hoito & veneenhoito'
+    sv: 'Professionell bilvård & båtvård',
+    fi: 'Ammattitaitoinen auton- ja veneenhoito'
   },
   heroSubtitle: {
-    sv: 'Vi ger din bil och båt den vård de förtjänar med högkvalitativa produkter och 30 års kombinerad erfarenhet',
-    fi: 'Annamme autollesi ja veneellesi ansaitsemansa hoidon korkealaatuisilla tuotteilla ja 30 vuoden yhdistetyllä asiantuntemuksella'
+    sv: 'Vi ger din bil och båt den omsorg de förtjänar – med premiumprodukter och över 30 års samlad erfarenhet inom rekonditionering',
+    fi: 'Tarjoamme autollesi ja veneellesi ansaitsemaansa huolenpitoa – huipputuotteilla ja yli 30 vuoden yhdistetyllä kokemuksella ajoneuvojen viimeistelyssä'
   },
   
   // Services
@@ -36,36 +36,36 @@ const translations: Translations = {
     fi: 'Palvelumme'
   },
   carDetailing: {
-    sv: 'Bildetaljering',
-    fi: 'Auton yksityiskohtien hoito'
+    sv: 'Bilvård',
+    fi: 'Auton puhdistuspalvelut'
   },
   carDetailingDesc: {
-    sv: 'Komplett rengöring och detaljering av både in- och utvändigt',
-    fi: 'Täydellinen sisä- ja ulkopuolinen puhdistus ja yksityiskohtien hoito'
+    sv: 'Fullständig rekond – invändig och utvändig rengöring, polering och skyddsbehandling',
+    fi: 'Täydellinen auton sisä- ja ulkopuhdistus, kiillotus ja suojakäsittely'
   },
   ceramicCoatings: {
-    sv: 'Keramiska beläggningar',
+    sv: 'Keramiska lackskydd',
     fi: 'Keraamiset pinnoitteet'
   },
   ceramicCoatingsDesc: {
-    sv: 'Långvarigt skydd för din bils lack med premiumkeramik',
-    fi: 'Pitkäkestoinen suoja autosi maalaukselle premium-keramiikalla'
+    sv: 'Avancerat keramiskt lackskydd för långvarigt skydd, glans och smutsavvisning',
+    fi: 'Edistyksellinen keraaminen pinnoite pitkäkestoiseen suojaan, kiiltoon ja lian hylkimiseen'
   },
   boatCare: {
     sv: 'Båtvård',
     fi: 'Veneenhoito'
   },
   boatCareDesc: {
-    sv: 'Vaxning, rengöring och polering för alla typer av båtar',
-    fi: 'Vahaaminen, puhdistus ja kiillotus kaikille venetyypeille'
+    sv: 'Polering, rengöring och vaxning för både skrov och överbyggnad',
+    fi: 'Kiillotus, puhdistus ja vahaus rungolle ja ylärakenteille'
   },
   productSales: {
     sv: 'Produktförsäljning',
     fi: 'Tuotemyynti'
   },
   productSalesDesc: {
-    sv: 'Högkvalitativa MaFra och Labocosmetica produkter',
-    fi: 'Korkealaatuiset MaFra ja Labocosmetica tuotteet'
+    sv: 'Auktoriserad återförsäljare av MaFra och Labocosmetica – professionella bilvårdsprodukter för både privat och kommersiellt bruk',
+    fi: 'Valtuutettu MaFra- ja Labocosmetica-jälleenmyyjä – ammattikäyttöön suunnitellut autonhoitotuotteet koti- ja yritysasiakkaille'
   },
   
   // Contact

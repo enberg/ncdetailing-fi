@@ -12,7 +12,7 @@ const Hero = () => {
           <img 
             src="/lovable-uploads/97d8d295-4130-4a3b-ad91-50764924ab39.png" 
             alt="NC Detailing Logo" 
-            className="h-20 w-auto mx-auto mb-6"
+            className="h-40 w-auto mx-auto mb-6"
           />
           
           <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-4 leading-tight">

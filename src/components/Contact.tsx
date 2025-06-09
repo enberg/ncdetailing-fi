@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
@@ -18,7 +17,7 @@ const Contact = () => {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="text-center border-2 hover:border-blue-200 transition-colors">
               <CardHeader>
                 <div className="mx-auto mb-4 w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
@@ -68,16 +67,6 @@ const Contact = () => {
                 </a>
               </CardContent>
             </Card>
-          </div>
-
-          <div className="text-center">
-            <Button 
-              size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
-              onClick={() => window.location.href = 'mailto:info@ncdetailing.fi'}
-            >
-              {t('getQuote')}
-            </Button>
           </div>
         </div>
       </div>

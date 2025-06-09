@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type Language = 'sv' | 'fi';
@@ -85,10 +84,6 @@ const translations: Translations = {
   email: {
     sv: 'E-post',
     fi: 'Sähköposti'
-  },
-  getQuote: {
-    sv: 'Begär offert',
-    fi: 'Pyydä tarjous'
   }
 };
 

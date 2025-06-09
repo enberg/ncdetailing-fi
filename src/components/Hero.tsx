@@ -1,15 +1,9 @@
 
 import React from 'react';
-import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Hero = () => {
   const { t } = useLanguage();
-
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted pt-20">
@@ -28,14 +22,6 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
             {t('heroSubtitle')}
           </p>
-          
-          <Button 
-            size="lg" 
-            onClick={scrollToContact}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
-          >
-            {t('getQuote')}
-          </Button>
         </div>
       </div>
     </section>

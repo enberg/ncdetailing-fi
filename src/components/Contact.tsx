@@ -18,8 +18,8 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-accent-foreground" />
+              <div className="mx-auto mb-4 w-12 h-12 flex items-center justify-center">
+                <MapPin className="w-6 h-6 text-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">{t('address')}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
@@ -30,8 +30,8 @@ const Contact = () => {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent flex items-center justify-center">
-                <Phone className="w-6 h-6 text-accent-foreground" />
+              <div className="mx-auto mb-4 w-12 h-12 flex items-center justify-center">
+                <Phone className="w-6 h-6 text-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">{t('phone')}</h3>
               <a 
@@ -43,8 +43,8 @@ const Contact = () => {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto mb-4 w-12 h-12 bg-accent flex items-center justify-center">
-                <Mail className="w-6 h-6 text-accent-foreground" />
+              <div className="mx-auto mb-4 w-12 h-12 flex items-center justify-center">
+                <Mail className="w-6 h-6 text-foreground" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">{t('email')}</h3>
               <a 

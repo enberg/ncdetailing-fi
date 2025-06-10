@@ -23,9 +23,8 @@ const Contact = () => {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">{t('address')}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Chaufförsvägen 12<br/>
-                Kuljettajantie 12<br/>
-                10600 Ekenäs/Tammisaari
+                {t('addressStreet')}<br/>
+                {t('addressCity')}
               </p>
             </div>
 

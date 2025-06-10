@@ -77,6 +77,14 @@ const translations: Translations = {
     sv: 'Adress',
     fi: 'Osoite'
   },
+  addressStreet: {
+    sv: "Chaufförsvägen 12",
+    fi: "Kuljettajantie 12"
+  },
+  addressCity: {
+    sv: "10600 Ekenäs",
+    fi: "10600 Tammisaari"
+  },
   phone: {
     sv: 'Telefon',
     fi: 'Puhelin'

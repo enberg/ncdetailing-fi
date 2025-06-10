@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Car, Shield, Waves, ShoppingBag } from 'lucide-react';
+import { Sailboat, Car, Shield, Waves, ShoppingBag } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Services = () => {
@@ -18,7 +18,7 @@ const Services = () => {
       description: t('ceramicCoatingsDesc')
     },
     {
-      icon: Waves,
+      icon: Sailboat,
       title: t('boatCare'),
       description: t('boatCareDesc')
     },

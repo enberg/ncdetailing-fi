@@ -27,7 +27,7 @@ const translations: Translations = {
   },
   heroSubtitle: {
     sv: 'Vi ger din bil och båt den omsorg de förtjänar – med premiumprodukter och över 30 års samlad erfarenhet inom rekonditionering',
-    fi: 'Tarjoamme autollesi ja veneellesi ansaitsemaansa huolenpitoa – huipputuotteilla ja yli 30 vuoden yhdistetyllä kokemuksella ajoneuvojen viimeistelyssä'
+    fi: 'Tarjoamme autollesi ja veneellesi ensiluokkaista hoitoa – huippuluokan detailing-tuotteilla ja yli 30 vuoden kokemuksella'
   },
   
   // Services
@@ -37,27 +37,27 @@ const translations: Translations = {
   },
   carDetailing: {
     sv: 'Bilvård',
-    fi: 'Auton puhdistuspalvelut'
+    fi: 'Auton detailing-palvelut'
   },
   carDetailingDesc: {
     sv: 'Fullständig rekond – invändig och utvändig rengöring, polering och skyddsbehandling',
-    fi: 'Täydellinen auton sisä- ja ulkopuhdistus, kiillotus ja suojakäsittely'
+    fi: 'Täydellinen detailing-palvelu: sisä- ja ulkopuhdistus, kiillotus ja suojakäsittely' // koriste
   },
   ceramicCoatings: {
     sv: 'Keramiska lackskydd',
-    fi: 'Keraamiset pinnoitteet'
+    fi: 'Keraamiset pinnoitteet (ceramic coating)'
   },
   ceramicCoatingsDesc: {
     sv: 'Avancerat keramiskt lackskydd för långvarigt skydd, glans och smutsavvisning',
-    fi: 'Edistyksellinen keraaminen pinnoite pitkäkestoiseen suojaan, kiiltoon ja lian hylkimiseen'
+    fi: 'Edistyksellinen keraaminen pinnoite tarjoaa pitkäkestoisen suojan, kiillon ja aidon vedenhelmen' 
   },
   boatCare: {
     sv: 'Båtvård',
-    fi: 'Veneenhoito'
+    fi: 'Veneen hoito ja detailing'
   },
   boatCareDesc: {
     sv: 'Polering, rengöring och vaxning för både skrov och överbyggnad',
-    fi: 'Kiillotus, puhdistus ja vahaus rungolle ja ylärakenteille'
+    fi: 'Kiillotus, puhdistus ja vahaus veneen gelcoat-pinnalle sekä rakenteille'
   },
   productSales: {
     sv: 'Produktförsäljning',
@@ -65,7 +65,7 @@ const translations: Translations = {
   },
   productSalesDesc: {
     sv: 'Auktoriserad återförsäljare av MaFra och Labocosmetica – professionella bilvårdsprodukter för både privat och kommersiellt bruk',
-    fi: 'Valtuutettu MaFra- ja Labocosmetica-jälleenmyyjä – ammattikäyttöön suunnitellut autonhoitotuotteet koti- ja yritysasiakkaille'
+    fi: 'Valtuutettu MaFran ja Labocosmetic-tuotteiden jälleenmyyjä – ammattilaislaatu detailing-tuotteita' 
   },
   
   // Contact

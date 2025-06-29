@@ -28,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Add CNAME file for custom domain
-        run: echo "www.ncdetailing.fi" > dist/CNAME
+        run: echo "ncdetailing.fi" > dist/CNAME
 
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3

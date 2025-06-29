@@ -92,6 +92,12 @@ const translations: Translations = {
   email: {
     sv: 'E-post',
     fi: 'Sähköposti'
+  },
+  
+  // Vacation Notice
+  vacationNoticeMessage: {
+    sv: 'Vi har stängt för semester mellan 4 och 27 juli och tar inga bokningar för den tiden. Vi återkommer måndag 28 juli, trevlig sommar!',
+    fi: 'Olemme lomalla 4.-27. heinäkuuta emmekä ota varauksia siltä ajalta. Palaamme maanantaina 28. heinäkuuta, mukavaa kesää!'
   }
 };
 
